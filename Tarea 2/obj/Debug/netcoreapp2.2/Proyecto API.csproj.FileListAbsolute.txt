@@ -1,0 +1,21 @@
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Proyecto API.deps.json
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Proyecto API.runtimeconfig.json
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Proyecto API.runtimeconfig.dev.json
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Proyecto API.dll
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Proyecto API.pdb
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Model.dll
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Persistence.dll
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Service.dll
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Persistence.pdb
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Service.pdb
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Model.pdb
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Proyecto API.csprojAssemblyReference.cache
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Proyecto API.csproj.CoreCompileInputs.cache
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Proyecto API.RazorAssemblyInfo.cache
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Proyecto API.RazorAssemblyInfo.cs
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Proyecto API.AssemblyInfoInputs.cache
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Proyecto API.AssemblyInfo.cs
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Proyecto API.RazorTargetAssemblyInfo.cache
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Proyecto API.csproj.CopyComplete
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Proyecto API.dll
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Proyecto API.pdb

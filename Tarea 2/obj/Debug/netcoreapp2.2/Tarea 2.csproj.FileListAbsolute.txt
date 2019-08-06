@@ -1,0 +1,42 @@
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\bin\Debug\netcoreapp2.2\Tarea 2.deps.json
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\bin\Debug\netcoreapp2.2\Tarea 2.runtimeconfig.json
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\bin\Debug\netcoreapp2.2\Tarea 2.runtimeconfig.dev.json
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\bin\Debug\netcoreapp2.2\Tarea 2.dll
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\bin\Debug\netcoreapp2.2\Tarea 2.pdb
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\bin\Debug\netcoreapp2.2\Model.dll
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\bin\Debug\netcoreapp2.2\Persistence.dll
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\bin\Debug\netcoreapp2.2\Persistence.pdb
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\bin\Debug\netcoreapp2.2\Model.pdb
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.csprojAssemblyReference.cache
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.RazorAssemblyInfo.cache
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.RazorAssemblyInfo.cs
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.AssemblyInfo.cs
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.RazorTargetAssemblyInfo.cache
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.csproj.CopyComplete
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.dll
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.pdb
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\bin\Debug\netcoreapp2.2\Service.dll
+C:\Users\USER\Documents\ITLA\Programacion 3\Tarea 2\Tarea 2\bin\Debug\netcoreapp2.2\Service.pdb
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Tarea 2.deps.json
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Tarea 2.runtimeconfig.json
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Tarea 2.runtimeconfig.dev.json
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Tarea 2.dll
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Tarea 2.pdb
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Model.dll
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Persistence.dll
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Service.dll
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Persistence.pdb
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Service.pdb
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\bin\Debug\netcoreapp2.2\Model.pdb
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.csprojAssemblyReference.cache
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.csproj.CoreCompileInputs.cache
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.RazorAssemblyInfo.cache
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.RazorAssemblyInfo.cs
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.AssemblyInfoInputs.cache
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.AssemblyInfo.cs
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.RazorTargetAssemblyInfo.cache
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.csproj.CopyComplete
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.dll
+C:\Users\USER\Downloads\Proyecto Final P3\Tarea 2\obj\Debug\netcoreapp2.2\Tarea 2.pdb
