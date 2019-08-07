@@ -6,32 +6,32 @@ using System.Linq;
 
 namespace Service
 {
-    public interface IClienteService
+    public interface IProductoService
     {
-        IEnumerable<Cliente> GetAll();
-        bool Add(Cliente model);
+        IEnumerable<Producto> GetAll();
+        bool Add(Producto model);
         bool Delete(int id);
-        bool Update(Cliente model);
-        Cliente Get(int id);
+        bool Update(Producto model);
+        Producto Get(int id);
     }
 
-    public class ClienteService : IClienteService
+    public class ProductoService : IProductoService
     {
         private readonly BreadDbContext _breadDbContext;
 
-        public ClienteService(
+        public ProductoService(
             BreadDbContext breadDbContext
             )
         {
             _breadDbContext = breadDbContext;
         }
 
-        public IEnumerable<Cliente> GetAll()
+        public IEnumerable<Producto> GetAll()
         {
-            var result = new List<Cliente>();
+            var result = new List<Producto>();
             try
             {
-                result = _breadDbContext.Cliente.ToList();
+                result = _breadDbContext.Producto.ToList();
             }
             catch (System.Exception)
             {
@@ -41,12 +41,12 @@ namespace Service
 
         }
 
-        public Cliente Get(int id)
+        public Producto Get(int id)
         {
-            var result = new Cliente();
+            var result = new Producto();
             try
             {
-                result = _breadDbContext.Cliente.Single(x => x.ClienteId == id);
+                result = _breadDbContext.Producto.Single(x => x.IdProducto == id);
             }
             catch (System.Exception)
             {
@@ -57,7 +57,7 @@ namespace Service
         }
 
 
-        public bool Add(Cliente model)
+        public bool Add(Producto model)
         {
             try
             {
@@ -73,17 +73,17 @@ namespace Service
             
         }
 
-        public bool Update(Cliente model)
+        public bool Update(Producto model)
         {
             try
             {
-                var originalModel = _breadDbContext.Cliente.Single(x =>
-                    x.ClienteId == model.ClienteId
+                var originalModel = _breadDbContext.Producto.Single(x =>
+                    x.IdProducto == model.IdProducto
                  );
 
-                originalModel.Nombre = model.Nombre;
-                originalModel.Apellido = model.Apellido;
-                originalModel.Telefono = model.Telefono;
+                originalModel.Tipo = model.Tipo;
+                originalModel.Precio = model.Precio;
+                originalModel.Proveedor = model.Proveedor;
 
                 _breadDbContext.Update(originalModel);
                 _breadDbContext.SaveChanges();
@@ -101,7 +101,7 @@ namespace Service
         {
             try
             {
-                _breadDbContext.Entry(new Cliente { ClienteId = id }).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
+                _breadDbContext.Entry(new Producto { IdProducto = id }).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
                 _breadDbContext.SaveChanges();
             }
             catch (System.Exception)

@@ -6,32 +6,32 @@ using System.Linq;
 
 namespace Service
 {
-    public interface IClienteService
+    public interface IProveedorService
     {
-        IEnumerable<Cliente> GetAll();
-        bool Add(Cliente model);
+        IEnumerable<Proveedor> GetAll();
+        bool Add(Proveedor model);
         bool Delete(int id);
-        bool Update(Cliente model);
-        Cliente Get(int id);
+        bool Update(Proveedor model);
+        Proveedor Get(int id);
     }
 
-    public class ClienteService : IClienteService
+    public class ProveedorService : IProveedorService
     {
         private readonly BreadDbContext _breadDbContext;
 
-        public ClienteService(
+        public ProveedorService(
             BreadDbContext breadDbContext
             )
         {
             _breadDbContext = breadDbContext;
         }
 
-        public IEnumerable<Cliente> GetAll()
+        public IEnumerable<Proveedor> GetAll()
         {
-            var result = new List<Cliente>();
+            var result = new List<Proveedor>();
             try
             {
-                result = _breadDbContext.Cliente.ToList();
+                result = _breadDbContext.Proveedor.ToList();
             }
             catch (System.Exception)
             {
@@ -41,12 +41,12 @@ namespace Service
 
         }
 
-        public Cliente Get(int id)
+        public Proveedor Get(int id)
         {
-            var result = new Cliente();
+            var result = new Proveedor();
             try
             {
-                result = _breadDbContext.Cliente.Single(x => x.ClienteId == id);
+                result = _breadDbContext.Proveedor.Single(x => x.IdProveedor == id);
             }
             catch (System.Exception)
             {
@@ -57,7 +57,7 @@ namespace Service
         }
 
 
-        public bool Add(Cliente model)
+        public bool Add(Proveedor model)
         {
             try
             {
@@ -73,16 +73,17 @@ namespace Service
             
         }
 
-        public bool Update(Cliente model)
+        public bool Update(Proveedor model)
         {
             try
             {
-                var originalModel = _breadDbContext.Cliente.Single(x =>
-                    x.ClienteId == model.ClienteId
+                var originalModel = _breadDbContext.Proveedor.Single(x =>
+                    x.IdProveedor == model.IdProveedor
                  );
 
                 originalModel.Nombre = model.Nombre;
                 originalModel.Apellido = model.Apellido;
+                originalModel.Empresa = model.Empresa;
                 originalModel.Telefono = model.Telefono;
 
                 _breadDbContext.Update(originalModel);
@@ -101,7 +102,7 @@ namespace Service
         {
             try
             {
-                _breadDbContext.Entry(new Cliente { ClienteId = id }).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
+                _breadDbContext.Entry(new Proveedor { IdProveedor = id }).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
                 _breadDbContext.SaveChanges();
             }
             catch (System.Exception)

@@ -34,6 +34,14 @@ namespace ProyectoAPI
 
             services.AddTransient<IClienteService, ClienteService>();
 
+            services.AddTransient<ICompraService, CompraService>();
+
+            services.AddTransient<IEmpleadoService, EmpleadoService>();
+
+            services.AddTransient<IProductoService, ProductoService>();
+
+            services.AddTransient<IProveedorService, ProveedorService>();
+
             services.AddCors(options =>
            {
                options.AddPolicy("AllowSpecificOrigin", builder =>
