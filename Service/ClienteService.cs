@@ -17,7 +17,7 @@ namespace Service
 
     public class ClienteService : IClienteService
     {
-        private readonly BreadDbContext _breadDbContext;
+        public readonly BreadDbContext _breadDbContext;
 
         public ClienteService(
             BreadDbContext breadDbContext

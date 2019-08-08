@@ -81,9 +81,9 @@ namespace Service
                     x.IdCompra == model.IdCompra
                  );
 
-                originalModel.producto = model.producto;
-                originalModel.cliente = model.cliente;
-                originalModel.empleado = model.empleado;
+                originalModel.Producto = model.Producto;
+                originalModel.Cliente = model.Cliente;
+                originalModel.Empleado = model.Empleado;
                 _breadDbContext.Update(originalModel);
                 _breadDbContext.SaveChanges();
             }

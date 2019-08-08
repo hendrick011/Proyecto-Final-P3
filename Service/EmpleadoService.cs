@@ -83,7 +83,7 @@ namespace Service
 
                 originalModel.Nombre = model.Nombre;
                 originalModel.Apellido = model.Apellido;
-                originalModel.puesto = model.puesto;
+                originalModel.Puesto = model.Puesto;
 
                 _breadDbContext.Update(originalModel);
                 _breadDbContext.SaveChanges();

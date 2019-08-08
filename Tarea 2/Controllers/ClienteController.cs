@@ -13,11 +13,16 @@ namespace ProyectoAPI.Controllers
     {
         private readonly IClienteService _clienteService;
 
+        public ClienteController()
+        {
+
+        }
+
         public ClienteController(IClienteService clienteService)
         {
             _clienteService = clienteService;
         }
-
+         
         // GET api/values
         [HttpGet]
         public IActionResult Get()

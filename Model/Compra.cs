@@ -7,8 +7,8 @@ namespace Model
     public class Compra
     {
         public int IdCompra { get; set; }
-        public Producto producto { get; set; }
-        public Cliente cliente { get; set; }
-        public Empleado empleado { get; set; }
+        public Producto Producto { get; set; }
+        public Cliente Cliente { get; set; }
+        public Empleado Empleado { get; set; }
     }
 }
