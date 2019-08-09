@@ -30,7 +30,7 @@ namespace Persistence.Migrations
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Nombre = table.Column<string>(nullable: true),
                     Apellido = table.Column<string>(nullable: true),
-                    puesto = table.Column<string>(nullable: true)
+                    Puesto = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -80,9 +80,9 @@ namespace Persistence.Migrations
                 {
                     IdCompra = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    productoIdProducto = table.Column<int>(nullable: true),
+                    ProductoIdProducto = table.Column<int>(nullable: true),
                     ClienteId = table.Column<int>(nullable: true),
-                    empleadoIdEmpleado = table.Column<int>(nullable: true)
+                    EmpleadoIdEmpleado = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -94,14 +94,14 @@ namespace Persistence.Migrations
                         principalColumn: "ClienteId",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Compra_Empleado_empleadoIdEmpleado",
-                        column: x => x.empleadoIdEmpleado,
+                        name: "FK_Compra_Empleado_EmpleadoIdEmpleado",
+                        column: x => x.EmpleadoIdEmpleado,
                         principalTable: "Empleado",
                         principalColumn: "IdEmpleado",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Compra_Producto_productoIdProducto",
-                        column: x => x.productoIdProducto,
+                        name: "FK_Compra_Producto_ProductoIdProducto",
+                        column: x => x.ProductoIdProducto,
                         principalTable: "Producto",
                         principalColumn: "IdProducto",
                         onDelete: ReferentialAction.Restrict);
@@ -113,14 +113,14 @@ namespace Persistence.Migrations
                 column: "ClienteId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Compra_empleadoIdEmpleado",
+                name: "IX_Compra_EmpleadoIdEmpleado",
                 table: "Compra",
-                column: "empleadoIdEmpleado");
+                column: "EmpleadoIdEmpleado");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Compra_productoIdProducto",
+                name: "IX_Compra_ProductoIdProducto",
                 table: "Compra",
-                column: "productoIdProducto");
+                column: "ProductoIdProducto");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Producto_ProveedorIdProveedor",

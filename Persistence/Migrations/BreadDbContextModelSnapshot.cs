@@ -44,17 +44,17 @@ namespace Persistence.Migrations
 
                     b.Property<int?>("ClienteId");
 
-                    b.Property<int?>("empleadoIdEmpleado");
+                    b.Property<int?>("EmpleadoIdEmpleado");
 
-                    b.Property<int?>("productoIdProducto");
+                    b.Property<int?>("ProductoIdProducto");
 
                     b.HasKey("IdCompra");
 
                     b.HasIndex("ClienteId");
 
-                    b.HasIndex("empleadoIdEmpleado");
+                    b.HasIndex("EmpleadoIdEmpleado");
 
-                    b.HasIndex("productoIdProducto");
+                    b.HasIndex("ProductoIdProducto");
 
                     b.ToTable("Compra");
                 });
@@ -69,7 +69,7 @@ namespace Persistence.Migrations
 
                     b.Property<string>("Nombre");
 
-                    b.Property<string>("puesto");
+                    b.Property<string>("Puesto");
 
                     b.HasKey("IdEmpleado");
 
@@ -116,17 +116,17 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("Model.Compra", b =>
                 {
-                    b.HasOne("Model.Cliente", "cliente")
+                    b.HasOne("Model.Cliente", "Cliente")
                         .WithMany()
                         .HasForeignKey("ClienteId");
 
-                    b.HasOne("Model.Empleado", "empleado")
+                    b.HasOne("Model.Empleado", "Empleado")
                         .WithMany()
-                        .HasForeignKey("empleadoIdEmpleado");
+                        .HasForeignKey("EmpleadoIdEmpleado");
 
-                    b.HasOne("Model.Producto", "producto")
+                    b.HasOne("Model.Producto", "Producto")
                         .WithMany()
-                        .HasForeignKey("productoIdProducto");
+                        .HasForeignKey("ProductoIdProducto");
                 });
 
             modelBuilder.Entity("Model.Producto", b =>

@@ -11,9 +11,7 @@ namespace ProyectoAPITest
        [Fact]
         public void Task_GetPosts_Return_OkResult()
         {
-            var cliente = new Cliente();
-            var result = Cliente.ToString();
-            Assert.IsNotNull(result);
+           
         }
     }
 }
